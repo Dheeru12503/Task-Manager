@@ -6,7 +6,6 @@ This project is a Task Manager application built using React.js.
 
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
-- [Project Structure](#project-structure)
 - [Deploy Link or URL](#project-Link)
 
 ## Installation
@@ -27,19 +26,6 @@ To set up the project locally, follow these steps:
     
     npm start 
 
-## project-structure
-
-Task-manager/
-├── public/          # Public assets
-├── src/             # Source files
-│   ├── components/  # React components
-|   ├── App.css      # main application CSS
-│   ├── App.js       # Main application component
-│   ├── index.js     # Entry point
-│   └── ...          # Other files
-├── .gitignore       # Git ignore file
-├── package.json     # Project dependencies and scripts
-└── README.md        # Project README file
 
 
 ## project-Link
