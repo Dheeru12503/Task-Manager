@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');  
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+body{
+  font-family: 'Bungee Inline', cursive;
+  background: linear-gradient(270deg, #0F2027, #de6262, #203A43, #2C5364);
+  background-size: 600% 600%;
+  animation: gradientAnimation 15s ease infinite;
+}
+.app-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+  overflow-y: auto;
+  
+}
+
+.app-content {
+  width: 90%;
+  max-width: 375px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 400px; /* Fixed minimum height */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+   margin-top: 0;
+}
+  .app-content {
+    width: 100%;
+    min-height: 100vh;
+    border-radius: 13px;
+  }
+}

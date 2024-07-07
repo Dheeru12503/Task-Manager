@@ -1,0 +1,59 @@
+.task-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Bungee Inline", cursive;
+  outline: none;
+}
+
+
+.task-select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Bungee Inline", cursive;
+  outline: none;
+}
+
+.task-button {
+  background-color: #00aaff;
+  border: none;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .task-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .task-input {
+    max-width: 70%;
+  }
+  .task-select {
+    margin-right: 10px;
+  }
+
+  .task-button {
+    font-family: "Bungee Inline", cursive;
+    
+    font-size: 18px;
+  }
+}
